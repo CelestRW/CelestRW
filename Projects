@@ -66,6 +66,7 @@ Each sprint demonstrates progression from **manual testing → API → database 
 
 
 ---
+---
 
 ## Sprint 5 — Console & Database Testing  
 **Platform:** Linux CLI, SQL (PostgreSQL)  
@@ -77,54 +78,69 @@ Each sprint demonstrates progression from **manual testing → API → database 
 - SQL queries for fleet validation:  
   ```sql
   SELECT COUNT(DISTINCT vehicle_id) FROM cabs;
-SELECT company_name, COUNT(vehicle_id) AS cnt
-FROM cabs
-GROUP BY company_name
-HAVING COUNT(vehicle_id) < 100
-ORDER BY cnt DESC;
-Documented results in Google Docs
-Evidence: 📄 Sprint 5 Google Doc Submission
-Sprint 6 — Urban Lunch Mobile App Testing
-Platform: Android Emulator (Pixel 5), Figma, Google Sheets, Jira
-Focus: Functional mobile testing.
-Key Deliverables:
-Built test checklist for ordering flow based on requirements
-Installed & executed Urban Lunch app tests in emulator
-Logged failed tests with Jira bug reports + evidence
-Delivered test execution report with PASSED/FAILED results
-Evidence: 📄 Sprint 6 Google Sheets Submission
-Sprint 7 — Python Automation Framework Setup
-Platform: Python, PyTest, Selenium (prep)
-Focus: Laying groundwork for automation.
-Key Deliverables:
-Created modular repo: data.py, helpers.py, main.py, requirements.txt
-Added test data constants (address, phone, card, driver message)
-Defined 8 placeholder test functions in main.py (PyTest-compatible)
-Added setup_class for server connectivity checks
-Prepared loop for “Order 2 Ice Creams” test
-Evidence: 📂 Sprint 7 GitHub Repo
-Sprint 8 — Selenium End-to-End Automation (Urban Routes)
-Platform: Python, Selenium WebDriver, PyTest, POM
-Focus: Full automation of Urban Routes app.
-Key Deliverables:
-Implemented Page Object Model (POM) in pages.py
-Automated end-to-end flow:
-Set route → Select tariff → Enter phone → Verify SMS → Add card → Add driver comment → Order blanket & handkerchiefs → Order 2 ice creams → Verify car search modal
-Used explicit waits, conditional checks, and helper utilities
-Structured tests in main.py, locators + methods in pages.py
-Evidence: 📂 Sprint 8 GitHub Repo (urban-routes-project)
-Sprint 9 — Final Project: Urban Scooter (Web, Mobile, API)
-Platform: Chrome, Opera, Android Studio, Postman, Jira, Google Sheets
-Scope: Capstone project validating Urban Scooter across Web, Mobile, and API layers.
-Key Deliverables:
-Web App (Task 1): Designed + executed test cases for About Customer form (name & phone) across Chrome/Opera. Logged bugs in Jira.
-Mobile App (Task 2): Installed app in emulator, created courier via API, tested highlighted features in Figma. Logged defects in Jira.
-API Backend (Task 3): Designed + executed test cases for Add/Delete Courier endpoints. Validated response codes (200, 400, 404) and error handling in Postman.
-Final report consolidated in Google Sheets with Jira bug links.
-Evidence: 📄 Sprint 9 Google Sheets Submission
+
+  SELECT company_name, COUNT(vehicle_id) AS cnt
+  FROM cabs
+  GROUP BY company_name
+  HAVING COUNT(vehicle_id) < 100
+  ORDER BY cnt DESC;
+***Evidence: 📄 [Sprint 5 Google Doc Submission
+](https://docs.google.com/document/d/1wcc2aoDZV_jqOOV8h8HobtS8LpbkCkbtYmexGxxA1pA/edit?tab=t.0#heading=h.sg2vs7j8fiw7)---
+
+## Sprint 6 — Urban Lunch Mobile App Testing  
+**Platform:** Android Emulator (Pixel 5), Figma, Google Sheets, Jira  
+**Focus:** Functional mobile testing.  
+
+**Key Deliverables:**  
+- Built test checklist for ordering flow based on requirements  
+- Installed & executed Urban Lunch app tests in emulator  
+- Logged failed tests with Jira bug reports + evidence  
+- Delivered test execution report with PASSED/FAILED results  
+
+**Evidence:** 📄 [Sprint 6 Google Sheets Submission](https://docs.google.com/spreadsheets/d/14kCn6mjNKNp0YaLSDbCLj1nN8i04XfBU8n9kRN5h1gU/edit?usp=share_link)  
 
 ---
 
-That will complete your `Projects.md` with Sprints 1–9 in a clean, consistent format. 🚀  
+## Sprint 7 — Python Automation Framework Setup  
+**Platform:** Python, PyTest, Selenium (prep)  
+**Focus:** Laying groundwork for automation.  
 
-Do you also want me to write a **short summary paragraph at the very end** (like a "Summary of Skills" section) so recruiters can quickly see your skills without scrolling through all the sprints?
+**Key Deliverables:**  
+- Created modular repo: `data.py`, `helpers.py`, `main.py`, `requirements.txt`  
+- Added test data constants (address, phone, card, driver message)  
+- Defined 8 placeholder test functions in `main.py` (PyTest-compatible)  
+- Added `setup_class` for server connectivity checks  
+- Prepared loop for “Order 2 Ice Creams” test  
+
+**Evidence:** 📂 [Sprint 7 GitHub Repo](https://github.com/CelestRW/QA-USA-Python_Automation)  
+
+---
+
+## Sprint 8 — Selenium End-to-End Automation (Urban Routes)  
+**Platform:** Python, Selenium WebDriver, PyTest, POM  
+**Focus:** Full automation of Urban Routes app.  
+
+**Key Deliverables:**  
+- Implemented **Page Object Model (POM)** in `pages.py`  
+- Automated end-to-end flow:  
+  - Set route → Select tariff → Enter phone → Verify SMS → Add card → Add driver comment → Order blanket & handkerchiefs → Order 2 ice creams → Verify car search modal  
+- Used explicit waits, conditional checks, and helper utilities  
+- Structured tests in `main.py`, locators + methods in `pages.py`  
+
+**Evidence:** 📂 [Sprint 8 GitHub Repo (urban-routes-project)](https://github.com/CelestRW/urban-routes-project)  
+
+---
+
+## Sprint 9 — Final Project: Urban Scooter (Web, Mobile, API)  
+**Platform:** Chrome, Opera, Android Studio, Postman, Jira, Google Sheets  
+**Scope:** Capstone project validating Urban Scooter across Web, Mobile, and API layers.  
+
+**Key Deliverables:**  
+- **Web App (Task 1):** Designed + executed test cases for About Customer form (name & phone) across Chrome/Opera. Logged bugs in Jira.  
+- **Mobile App (Task 2):** Installed app in emulator, created courier via API, tested highlighted features in Figma. Logged defects in Jira.  
+- **API Backend (Task 3):** Designed + executed test cases for Add/Delete Courier endpoints. Validated response codes (200, 400, 404) and error handling in Postman.  
+- Consolidated results in Google Sheets with Jira bug links.  
+
+**Evidence:** 📄 [Sprint 9 Google Sheets Submission](https://docs.google.com/spreadsheets/d/1kpN3wpZi5FjRwxllWBb_rm5mLtDuL5zI_Ft6l-scwkM/edit?usp=share_link)  
+
+---
