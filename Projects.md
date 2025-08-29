@@ -66,6 +66,18 @@ Each sprint demonstrates progression from **manual testing → API → database 
 
 ---
 
+## Sprint 5 — Console & Database Testing  
+**Platform:** Linux CLI, SQL (PostgreSQL)  
+**Focus:** Backend log analysis + database validation.  
+
+**Key Deliverables (High-Level):**  
+- Analyzed server logs with Linux command line tools  
+- Filtered error logs into categories (400 vs 500)  
+- Ran SQL queries to validate taxi fleet data and company sizes  
+
+**Evidence:** 📄 [Sprint 5 Google Doc Submission](https://docs.google.com/document/d/1wcc2aoDZV_jqOOV8h8HobtS8LpbkCkbtYmexGxxA1pA/edit?usp=share_link)  
+
+--
 ## Sprint 6 — Urban Lunch Mobile App Testing  
 **Platform:** Android Emulator (Pixel 5), Figma, Google Sheets, Jira  
 **Focus:** Functional mobile testing.  
