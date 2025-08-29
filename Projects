@@ -64,8 +64,6 @@ Each sprint demonstrates progression from **manual testing → API → database 
 **Evidence:** 📄 [Sprint 4 Google Sheets Submission](https://docs.google.com/spreadsheets/d/1ZZraSr_65qMXobSshkjoaxbP2ZvL70asP6Fcbx59VPs/edit?usp=share_link)  
 **Additional Evidence:** 📂 Google Drive Folder
 
-
----
 ---
 
 ## Sprint 5 — Console & Database Testing  
@@ -84,8 +82,7 @@ Each sprint demonstrates progression from **manual testing → API → database 
   GROUP BY company_name
   HAVING COUNT(vehicle_id) < 100
   ORDER BY cnt DESC;
-***Evidence: 📄 [Sprint 5 Google Doc Submission
-](https://docs.google.com/document/d/1wcc2aoDZV_jqOOV8h8HobtS8LpbkCkbtYmexGxxA1pA/edit?tab=t.0#heading=h.sg2vs7j8fiw7)---
+
 
 ## Sprint 6 — Urban Lunch Mobile App Testing  
 **Platform:** Android Emulator (Pixel 5), Figma, Google Sheets, Jira  
