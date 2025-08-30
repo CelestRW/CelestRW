@@ -25,7 +25,8 @@
 - 🔗 [**Urban Routes Project**](https://github.com/CelestRW/urban-routes-project) — E2E web tests using Selenium, fixtures, and Page Object Model  
 - 🔗 [**qa-api-testing-postman**](https://github.com/CelestRW/qa-api-testing-postman) — Postman/Newman API test collection with HTML reports  
 - 🔗 [**xml-fast-delivery-testing**](https://github.com/CelestRW/xml-fast-delivery-testing) — XML boundary/negative test suite with bug documentation  
-- 🔗 [**bug-reports-and-test-cases**](https://github.com/CelestRW/bug-reports-and-test-cases) — Curated test cases and Jira-style bug reports
+- 🔗 [**bug-reports-and-test-cases**](https://github.com/CelestRW/bug-reports-and-test-cases) — Curated test cases and Jira-style bug reports  
+- 🔗 [**Triple-Ten-Projects**](https://github.com/CelestRW/Triple-Ten-Projects) — Full QA bootcamp portfolio (manual, API, mobile, and automation projects)
 
 ---
 
