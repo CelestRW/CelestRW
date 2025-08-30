@@ -1,5 +1,6 @@
-# Hi, I’m Celest 👋  
-**QA Engineer | API • Web • Mobile Testing**
+## Hi, I’m Celest Ward — QA Engineer
+
+QA Engineer skilled in manual, API, mobile, and automated testing. I design test cases using BVA and EC, report bugs clearly, and script user flows with Selenium, PyTest, and Postman. Explore my work below:
 
 ---
 
